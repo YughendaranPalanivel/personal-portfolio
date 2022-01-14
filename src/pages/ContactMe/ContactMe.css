@@ -1,0 +1,50 @@
+.contact-me{
+    position: relative;
+    width: 100%;
+    height: calc(100% - 235px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-me-form{
+    width: 80%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+#my-form-status{
+    color: var(--primary-color);
+}
+
+.text-area{
+    -webkit-appearance: none;
+    outline: none;
+    padding: var(--padding);
+    border: 1px solid var(--white-shade-two);
+    border-radius: calc(var(--border-radius)/2);
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    max-width: 500px;
+    margin: var(--margin) 0;
+}
+
+.submit-button{
+    -webkit-appearance: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: var(--white);
+    width: 50px;
+    border-radius: calc(var(--border-radius)/2);
+    padding: var(--padding);    
+    margin: var(--margin) 0;
+
+}
+
+/* Focus */
+.text-area:focus{
+    border: 1px solid var(--primary-color);
+}

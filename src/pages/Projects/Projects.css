@@ -1,0 +1,45 @@
+.projects{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.project-link{
+    color: var(--black);
+}
+
+.project-card{
+    padding: calc(2*var(--padding));
+    border: 1px solid var(--white-shade-two);
+    border-radius: var(--border-radius);
+    max-width: 310px;
+    min-height: 180px;
+    max-height: 180px;
+    transition: transform linear 0.3s;
+    margin: 10px;
+}
+
+.project-title{
+    margin-bottom: var(--margin);
+}
+
+.project-description{
+    margin-bottom: var(--margin);
+}
+
+/* Hover */
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.07), 0 10px 10px rgba(0,0,0,0.04);
+}

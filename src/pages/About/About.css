@@ -1,0 +1,104 @@
+.about{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.about-flex-wraper{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.about-title{
+    margin-bottom: var(--margin);
+}
+
+.about-sub-title{
+    margin-bottom: var(--margin);
+}
+
+.about-description{
+    margin-bottom: var(--margin);
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill-set{
+    margin-right: calc(6*var(--margin));
+    margin-top: calc(4*var(--margin));
+    margin-bottom: calc(4*var(--margin));
+}
+
+.skill-heading{
+    font-weight: 400;
+    margin-bottom: var(--margin);
+}
+
+.skill{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    padding: var(--padding);
+}
+
+.skill:after{
+    position: absolute;
+    content: "";
+    display: block;
+    bottom: 0px;
+    height: 0.30em;
+    border-radius: 3px;
+    animation: grow linear 0.5s;
+}
+
+.skill-one::after{
+    background-color: var(--success);
+    width: 80%;
+}
+
+.skill-two::after{
+    background-color: var(--cyan);
+    width: 70%;
+}
+
+.skill-three::after{
+    background-color: var(--primary-color);
+    width: 70%;
+}
+
+.skill-four::after{
+    background-color: var(--pink);
+    width: 60%;
+}
+
+.skill-five::after{
+    background-color: var(--danger);
+    width: 50%;
+}
+
+.skill-six::after{
+    background-color: var(--cyan);
+    width: 80%;
+}
+
+.skill-seven::after{
+    background-color: var(--success);
+    width: 70%;
+}
+
+.skill-eight::after{
+    background-color: var(--primary-color);
+    width: 65%;
+}
+
+/* Animation */
+
+@keyframes grow{
+    from{
+        width: 0%;
+    }
+}

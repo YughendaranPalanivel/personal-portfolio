@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap');
+
+*, *:before, *:after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root{
+  --primary-color: #8A2BE2;
+  --assent-color: #007bff;
+  --white: #FFFFFF;
+  --black: #000000;
+  --white-shade-one: #EFEEF5;
+  --white-shade-two: #E2E1E0;
+  --white-shate-three: #fafafb;
+  --black-shade: #727272;
+  --success: #28a745;
+  --danger: #dc3545;
+  --cyan: #17a2b8;
+  --pink: #e83e8c;
+  --padding: 10px; /*Common padding value for all components*/
+  --margin: 10px; /*Common margin value for all components*/
+  --border-radius: 10px; /*Common border radius value for all components*/
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+body {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root{
+  width: 100%;
+  height: 100%;
+}
